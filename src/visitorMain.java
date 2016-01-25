@@ -39,6 +39,7 @@ public class visitorMain {
 	private static JTextField textField_4;
 	private static JTextField textField_5;
 	private JLabel lblNewLabel_9;
+	private JLabel lblNewLabel_10;
 	
 
 	/**
@@ -250,6 +251,13 @@ public class visitorMain {
 		lblNewLabel_9 = new JLabel("Date");
 		lblNewLabel_9.setBounds(10, 0, 214, 14);
 		frame.getContentPane().add(lblNewLabel_9);
+		
+		lblNewLabel_10 = new JLabel("\u03A6\u0391\u03A1\u039C\u0391\u039A\u0395\u0399\u039F");
+		lblNewLabel_10.setForeground(Color.GRAY);
+		lblNewLabel_10.setFont(new Font("Tahoma", Font.BOLD, 30));
+		lblNewLabel_10.setBounds(279, 5, 206, 40);
+		frame.getContentPane().add(lblNewLabel_10);
+		
 		
 	}
 }
