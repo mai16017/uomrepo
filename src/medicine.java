@@ -29,4 +29,5 @@ class medicine extends product {
 	
 	
 	public double getCalcGen() {return teliki;}
+	public double getsimmetoxi() {return per;}
 }

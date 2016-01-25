@@ -18,7 +18,7 @@ public abstract class product {
 	    
 	}
 	
-	public static int getCounterCosm() {
+	public int getCounterCosm() {
 	    return counter;
 	}
     
